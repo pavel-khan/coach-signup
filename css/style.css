@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;0,800;1,400&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url(../images/bg-cover.jpg);
+  background-size: cover;
+  line-height: 1.6;
+  color: #6f6985;
+  text-align: left;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+.content {
+  width: 50%;
+  margin: auto;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.form-section {
+  background-color: #1e1835;
+  padding: 51px;
+  border: none;
+  border-radius: 7px;
+}
+.form-section h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: white;
+  padding-top: 21px;
+}
+.form-section p {
+}
+.btn-custom {
+  display: block;
+  background-color: #ff5938;
+  color: white;
+  padding: 11px 0;
+}
+.btn-custom:hover {
+  background-color: #ff3912;
+  color: white;
+}
+.sign-in {
+  display: inline-flex;
+}
+.sign-in p {
+}
+.sign-in a {
+  color: #ff5938;
+  text-decoration: none;
+  padding-left: 3px;
+  font-weight: 700;
+}
+.sign-in a:hover {
+  color: #ff3912;
+}
+.form-control:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255, 89, 56, 0.25);
+}
